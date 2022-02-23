@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 
 setup(
-    name="automi",
+    name="automutualinformation",
     packages=find_packages(),
-    version="0.1.1",
-    description="Auto Mutual Information (Sequential Mutual Information) for temporal data. ",
+    version="0.1.2",
+    description="Auto Mutual Information (Sequential Mutual Information) for temporal data.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Tim Sainburg",
