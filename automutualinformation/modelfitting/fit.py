@@ -1,5 +1,5 @@
 import lmfit
-from automutualinformation.modelfitting.decay_functions import (
+from auto_mi.modelfitting.decay_functions import (
     powerlaw_decay,
     exponential_decay,
     pow_exp_decay,
@@ -65,7 +65,8 @@ def fit_model(
         decay_function = pow_exp_decay
 
     else:
-        if type(decay_function) != function:
+        if not callable(decay_function):
+            # if this is a function
             print(f"decay_function {decay_function} not supported")
 
     # initialize parameters
