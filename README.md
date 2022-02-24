@@ -20,7 +20,7 @@ The python package is installable via pip.
 ```python
 from automutualinformation import sequential_mutual_information as smi
 (MI, MI_var), (shuff_MI, shuff_MI_var) = smi(
-    [signal], distances=range(1,100)
+    [signal], distances=np.arange(1,100)
 )
 ```
 
