@@ -1,5 +1,5 @@
 import lmfit
-from auto_mi.modelfitting.decay_functions import (
+from automutualinformation.modelfitting.decay_functions import (
     powerlaw_decay,
     exponential_decay,
     pow_exp_decay,

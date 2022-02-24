@@ -4,7 +4,7 @@ import copy
 from joblib import Parallel, delayed
 
 # mutual information estimation functions
-from automi.mi.grassberger import est_mutual_info_p
+from automutualinformation.mi.grassberger import est_mutual_info_p
 from sklearn.metrics import mutual_info_score
 
 ######## Mutual Information From distributions ############
