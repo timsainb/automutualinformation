@@ -1,5 +1,7 @@
-name: Upload Python Package 2
-on: push
+name: Upload python package to pypi
+on:
+  release:
+    types: [published]
 jobs:
   deploy:
     runs-on: ubuntu-20.04
