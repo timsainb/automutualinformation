@@ -1,9 +1,5 @@
 name: Upload Python Package 2
-
-on:
-  release:
-    types: [created]
-
+on: push
 jobs:
   deploy:
     runs-on: ubuntu-20.04
@@ -18,7 +14,7 @@ jobs:
     - name: Build and publish
       env:
         TWINE_USERNAME: __token__
-        TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
+        TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN2 }}
       run: |
         python setup.py sdist bdist_wheel
         twine upload dist/*
