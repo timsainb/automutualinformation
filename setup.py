@@ -6,14 +6,19 @@ with open("README.md", "r") as fh:
 
 setup(
     name="automutualinformation",
-    packages=find_packages(),
+    packages=[
+        "automutualinformation",
+        "automutualinformation.mi",
+        "automutualinformation.modelfitting",
+    ],
     version="0.1.4",
     description="Auto Mutual Information (Sequential Mutual Information) for temporal data.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Tim Sainburg",
     license="MIT",
-    rl="https://github.com/timsainb/automi",
+    include_package_data=True,
+    url="https://github.com/timsainb/automutualinformation",
     install_requires=[
         "numpy",
         "scipy",
