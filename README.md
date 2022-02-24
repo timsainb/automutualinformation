@@ -24,6 +24,10 @@ from automutualinformation import sequential_mutual_information as smi
 )
 ```
 
+Run an example notebook in Colab: 
+ 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timsainb/automutualinformation/blob/master/notebooks/1.1-example-AutoMI-with-pink-noise.ipynb)
+
 ### Documentation
 
 Documentation and usage information is currently available in jupyter notebooks in the notebooks folder. 
