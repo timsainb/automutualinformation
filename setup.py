@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 setup(
     name="automutualinformation",
     packages=find_packages(),
-    version="0.1.3",
+    version="0.1.4",
     description="Auto Mutual Information (Sequential Mutual Information) for temporal data.",
     long_description=long_description,
     long_description_content_type="text/markdown",

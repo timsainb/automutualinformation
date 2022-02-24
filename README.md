@@ -1,8 +1,8 @@
 ![CI](https://github.com/timsainb/automutualinformation/actions/workflows/python-package.yml/badge.svg)
-![package](https://github.com/timsainb/automutualinformation/actions/workflows/python-publish.yml/badge.svg)
 
 
-AutoMutualInformation
+
+Auto Mutual Information
 ==============================
 
 Auto Mutual Information (Sequential Mutual Information) for temporal data. 
