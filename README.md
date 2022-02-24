@@ -1,5 +1,5 @@
-![CI](https://github.com/tsainbur/automutualinformation/actions/workflows/python-package.yml/badge.svg)
-![package](https://github.com/tsainbur/automutualinformation/actions/workflows/python-package.yml/badge.svg)
+![CI](https://github.com/timsainb/automutualinformation/actions/workflows/python-package.yml/badge.svg)
+![package](https://github.com/timsainb/automutualinformation/actions/workflows/python-package.yml/badge.svg)
 
 
 AutoMutualInformation
