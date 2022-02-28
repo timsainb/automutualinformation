@@ -47,9 +47,6 @@ If you use this package, please cite the following paper:
 ```
 
 ### TODO
-
-- make pypi package
-- create tests/travisci
 - add additional parameters example
 
 
